@@ -1,0 +1,7 @@
+ TID|       name|      state| running| waiting| turnaround| resources
+----------------------------------------------------------------------
+   1|        aaa| TERMINATED|       2|       0|         72|      none
+   2|        ccc| TERMINATED|       4|       3|        176|      none
+   3|        ddd| TERMINATED|       3|       3|        155|      none
+   4|        eee| TERMINATED|       3|       3|        114|      none
+   5|        fff| TERMINATED|       4|       4|        218|      none

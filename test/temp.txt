@@ -1,0 +1,47 @@
+add kkk CPU_task 0
+del kkk
+echo
+ps
+echo
+add aaa CPU_task 3
+add bbb CPU_task 2
+add ccc test_exit 7
+del bbb
+echo
+ps
+echo
+add ddd test_exit 0
+add eee CPU_task 0
+add fff test_exit 8
+add ggg CPU_task 9
+add hhh CPU_task 0
+add iii CPU_task 0
+del iii
+del hhh
+del ddd
+del eee
+echo
+ps
+echo
+start
+echo
+ps
+echo
+add zzz test_exit 1
+add yyy test_sleep 2
+add xxx test_exit 3
+add www test_sleep 4
+add vvv test_exit 5
+add uuu test_sleep 6
+echo
+start
+echo
+ps
+echo
+add mmm test_resource1 1
+add nnn test_resource2 2
+echo
+start
+echo
+ps
+exit
